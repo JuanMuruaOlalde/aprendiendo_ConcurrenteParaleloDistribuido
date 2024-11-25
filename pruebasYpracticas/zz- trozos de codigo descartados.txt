@@ -1,0 +1,12 @@
+
+--------------------------------------------------------------------------------
+
+    class Operacion {
+        java.time.Instant momentoEnQueSeHaRealizado;
+        String descripcionDeLaTareaRealizada;
+    }
+    private java.util.concurrent.ConcurrentLinkedQueue<Operacion> listaDeOperaciones = new ConcurrentLinkedQueue<>();
+ 
+--------------------------------------------------------------------------------
+
+   

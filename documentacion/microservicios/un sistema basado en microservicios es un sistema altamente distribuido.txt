@@ -1,0 +1,3 @@
+Bien construido, es un sistema altamente flexible y altamente escalable.
+
+Mal construido,... es una terrible pesadilla.

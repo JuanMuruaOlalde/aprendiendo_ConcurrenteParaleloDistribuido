@@ -1,0 +1,16 @@
+# https://git-scm.com/docs/gitignore
+
+# Visual Studio Code
+.vscode/
+.vs/
+bin/
+obj/
+
+# compilers
+target/
+
+# java compiler
+*.class
+
+# Drawio
+*.bkp

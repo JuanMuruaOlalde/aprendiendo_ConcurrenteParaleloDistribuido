@@ -1,0 +1,25 @@
+ACID (Atomicity, Consistency, Isolation, Durability) properties of transactions
+https://en.wikipedia.org/wiki/ACID
+
+Eventual consistency
+https://en.wikipedia.org/wiki/Eventual_consistency
+
+
+Un comentario de Copilot al preguntarle sobre el tema:
+"
+Here are some real-world examples where applications sacrifice some integrity for scalability:
+
+- Social Media Platforms: Platforms like Twitter and Facebook often use eventual consistency to handle massive amounts of data and user interactions. This means that updates might not be immediately visible across all nodes, but the system will eventually reach consistency.
+
+- Ecommerce Sites: Companies like Amazon and eBay use distributed databases and eventually consistent models to handle high traffic and ensure availability. This allows them to scale horizontally by adding more servers as needed.
+
+- Content Delivery Networks (CDNs): CDNs like Akamai and Cloudflare distribute content globally to reduce latency. They often use eventual consistency to ensure that content is available quickly, even if it's not perfectly synchronized across all nodes.
+
+- Online Gaming: Games like Fortnite and World of Warcraft use distributed systems to handle thousands of concurrent players. They may sacrifice strict consistency for scalability to ensure a smooth gaming experience.
+
+- Big Data Processing: Systems like Hadoop and Spark process large datasets across clusters of computers. They often use eventual consistency to handle data replication and ensure that the system can scale to process massive amounts of data efficiently.
+
+These examples show how sacrificing some transactional integrity can lead to significant improvements in scalability and performance, which is crucial for handling large-scale, real-time applications.
+"
+
+
